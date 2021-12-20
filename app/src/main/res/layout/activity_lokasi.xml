@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textViewLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Lokasi Salon"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"/>
+
+
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_below="@+id/textViewLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        tools:context=".LokasiActivity" />
+
+    <TextView
+        android:id="@+id/textViewAlamat"
+        android:layout_below="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="Jl. Kaliurang No.15, Gondangan, Sardonoharjo, Kec. Ngaglik, Kabupaten Sleman,\nDaerah Istimewa Yogyakarta 55581"
+        android:background="@drawable/custom_edit_text"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_below="@+id/textViewAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_edit_logout"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Back"
+        android:textSize="16sp" />
+
+
+
+
+</RelativeLayout>

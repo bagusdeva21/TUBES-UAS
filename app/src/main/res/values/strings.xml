@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SalonWawa</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="tukang_cukur">
+        <item>Cico</item>
+        <item>Coco</item>
+        <item>Cici</item>
+        <item>Caca</item>
+    </string-array>
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "86045339578",
+    "project_id": "test-map-329000",
+    "storage_bucket": "test-map-329000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86045339578:android:7461560880333791913783",
+        "android_client_info": {
+          "package_name": "com.salon.salonwawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86045339578-mb8s9gpmfr92g26vjnccdnptrdkv2kog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrm1YVkIoiBaHp6-N_IX4sc_LeoIEdrv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86045339578-mb8s9gpmfr92g26vjnccdnptrdkv2kog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86045339578:android:cf01efe041745e55913783",
+        "android_client_info": {
+          "package_name": "com.salon.salonwawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86045339578-mb8s9gpmfr92g26vjnccdnptrdkv2kog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrm1YVkIoiBaHp6-N_IX4sc_LeoIEdrv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86045339578-mb8s9gpmfr92g26vjnccdnptrdkv2kog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

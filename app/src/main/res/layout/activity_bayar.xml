@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/salon" />
+
+    <TextView
+        android:id="@+id/TextViewBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center_horizontal"
+        android:text="Metode Pembayaran"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonCash"
+        android:layout_below="@+id/TextViewBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Cash"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/buttonDebit"
+        android:layout_below="@+id/buttonCash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:text="Debit"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/buttonQris"
+        android:layout_below="@+id/buttonDebit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:text="Qris"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_below="@+id/buttonQris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_edit_total"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Total:    Rp. 15.000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutButton"
+        android:layout_below="@id/textViewTotal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorLoginButton"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonLanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lanjut"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorLoginLanjut"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
